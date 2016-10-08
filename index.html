@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+    <title>template test</title>
+</head>
+<body>
+    <div id="template"></div>
+    
+    <script src="./lib/template.js"></script>
+    <script>
+        var template = '<p>Hello, my name is <%this.name%>. I\'m <%this.profile.age%> years old.</p>';
+        document.getElementById('template').innerHTML = templateEngine(template, {
+            name: "Karzan",
+            profile: { age: 18 }
+        })
+        
+    </script>
+</body>
+</html>

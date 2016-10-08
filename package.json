@@ -1,0 +1,11 @@
+{
+  "name": "template.js",
+  "version": "1.0.0",
+  "description": "模拟template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karzanOnline",
+  "license": "ISC"
+}
